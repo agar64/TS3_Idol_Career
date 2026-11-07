@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kWorkShiftCelebrityPointsPerLevel value="0, 0, 0, 5, 10, 15, 20, 30, 40, 55, 75">
+      <!--Celebrity Fame points earned per work shift completed at Levels 1 through 10 (index 0 unused).-->
+    </kWorkShiftCelebrityPointsPerLevel>
+    <kPromotionCelebrityBonusPerLevel value="0, 0, 0, 15, 35, 75, 150, 250, 400, 600, 900">
+      <!--Bonus Celebrity Fame points awarded upon promotion to Levels 1 through 10 (index 0 unused).-->
+    </kPromotionCelebrityBonusPerLevel>
+    <kBaseIdolConcertPay value="1200">
+      <!--Base concert payout at Level 6, scaling up to Level 10.-->
+    </kBaseIdolConcertPay>
+    <kConcertPayPerLevelAboveSix value="950">
+      <!--Additional concert payout per career level above 6.-->
+    </kConcertPayPerLevelAboveSix>
+    <kBaseMeetAndGreetPay value="650">
+      <!--Base payout from CD and Cheki Polaroid bundle sales during a Handshake Meet-and-Greet.-->
+    </kBaseMeetAndGreetPay>
+    <kMeetAndGreetPayPerLevelAboveFive value="450">
+      <!--Additional Meet-and-Greet payout per career level above 5.-->
+    </kMeetAndGreetPayPerLevelAboveFive>
+  </Current_Tuning>
+</base>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CareerEvents>
+  <IdolCareer>
+    <EventType></EventType>
+    <ProductVersion>BaseGame</ProductVersion>
+    <EventName></EventName>
+    <Description></Description>
+    <YesText></YesText>
+    <NoText></NoText>
+    <YesResultText></YesResultText>
+    <YesLoseResultText></YesLoseResultText>
+    <NoResultText></NoResultText>
+    <ChanceToWin></ChanceToWin>
+    <ChanceModifier1></ChanceModifier1>
+    <ChanceModifier2></ChanceModifier2>
+    <ChanceModifier3></ChanceModifier3>
+    <OpportunityName></OpportunityName>
+    <SureShotEvent>0</SureShotEvent>
+    <Likelihood></Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels></AvailableLevels>
+    <RewardYes1></RewardYes1>
+    <RewardYes2></RewardYes2>
+    <RewardYes3></RewardYes3>
+    <RewardYesLose1></RewardYesLose1>
+    <RewardYesLose2></RewardYesLose2>
+    <RewardYesLose3></RewardYesLose3>
+    <RewardNo1></RewardNo1>
+    <RewardNo2></RewardNo2>
+    <RewardNo3></RewardNo3>
+  </IdolCareer>
+
+  <!-- =================================================================== -->
+  <!-- CAREER OPPORTUNITY TRIGGERS (8 CUSTOM IDOL OPPORTUNITIES)           -->
+  <!-- =================================================================== -->
+  <IdolCareer>
+    <EventType>IdolOpp_LateNightFlyerBlitz</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_LateNightFlyerBlitz</OpportunityName>
+    <Likelihood>0.12</Likelihood>
+    <BranchName>Base</BranchName>
+    <AvailableLevels>1:3</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_ConvenienceStoreCampaign</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_ConvenienceStoreCampaign</OpportunityName>
+    <Likelihood>0.12</Likelihood>
+    <BranchName>Base</BranchName>
+    <AvailableLevels>2:5</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_StaminaBootcamp</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_StaminaBootcamp</OpportunityName>
+    <Likelihood>0.12</Likelihood>
+    <BranchName>Base</BranchName>
+    <AvailableLevels>2:5</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_AnisongThemeTieIn</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_AnisongThemeTieIn</OpportunityName>
+    <Likelihood>0.14</Likelihood>
+    <BranchName>SoloIdol</BranchName>
+    <AvailableLevels>6:9</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_VarietyReactionQueen</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_VarietyReactionQueen</OpportunityName>
+    <Likelihood>0.12</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>5:9</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_CenterPositionAudition</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_CenterPositionAudition</OpportunityName>
+    <Likelihood>0.14</Likelihood>
+    <BranchName>IdolGroup</BranchName>
+    <AvailableLevels>6:9</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_GoldenWeekHandshake</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_GoldenWeekHandshake</OpportunityName>
+    <Likelihood>0.12</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+  </IdolCareer>
+  <IdolCareer>
+    <EventType>IdolOpp_CountdownDomeFestival</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolOpportunity, IdolCareerMod</EventName>
+    <OpportunityName>IdolOpp_CountdownDomeFestival</OpportunityName>
+    <Likelihood>0.15</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>8:10</AvailableLevels>
+  </IdolCareer>
+
+  <!-- =================================================================== -->
+  <!-- INTERACTIVE CHANCE CARDS (6 DILEMMA CHOICE EVENTS)                  -->
+  <!-- =================================================================== -->
+
+  <!-- 1. The High-Note Gamble (Shared Levels 1-5) -->
+  <IdolCareer>
+    <EventType>IdolEvent_VoiceCrack</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_VoiceCrack_Desc</Description>
+    <YesText>IdolEvent_VoiceCrack_Yes</YesText>
+    <NoText>IdolEvent_VoiceCrack_No</NoText>
+    <YesResultText>IdolEvent_VoiceCrack_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_VoiceCrack_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_VoiceCrack_NoResult</NoResultText>
+    <ChanceToWin>50</ChanceToWin>
+    <ChanceModifier1>Skill,Charisma,25</ChanceModifier1>
+    <ChanceModifier2>Mood,25</ChanceModifier2>
+    <Likelihood>0.08</Likelihood>
+    <BranchName>Base</BranchName>
+    <AvailableLevels>1:5</AvailableLevels>
+    <RewardYes1>CareerPerformance,20</RewardYes1>
+    <RewardYes2>RelationshipWithBoss,15</RewardYes2>
+    <RewardYes3>Buff,Pumped</RewardYes3>
+    <RewardYesLose1>CareerPerformance,-12</RewardYesLose1>
+    <RewardYesLose2>Buff,Embarrassed</RewardYesLose2>
+    <RewardNo1>CareerPerformance,5</RewardNo1>
+  </IdolCareer>
+
+  <!-- 2. The Miracle Fancam (Levels 2-6) -->
+  <IdolCareer>
+    <EventType>IdolEvent_ViralFancam</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_ViralFancam_Desc</Description>
+    <YesText>IdolEvent_ViralFancam_Yes</YesText>
+    <NoText>IdolEvent_ViralFancam_No</NoText>
+    <YesResultText>IdolEvent_ViralFancam_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_ViralFancam_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_ViralFancam_NoResult</NoResultText>
+    <ChanceToWin>55</ChanceToWin>
+    <ChanceModifier1>Skill,Athletic,25</ChanceModifier1>
+    <ChanceModifier2>Skill,Charisma,20</ChanceModifier2>
+    <Likelihood>0.08</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>2:6</AvailableLevels>
+    <RewardYes1>Money,450</RewardYes1>
+    <RewardYes2>CareerPerformance,22</RewardYes2>
+    <RewardYes3>Buff,Pumped</RewardYes3>
+    <RewardYesLose1>CareerPerformance,-10</RewardYesLose1>
+    <RewardNo1>CareerPerformance,6</RewardNo1>
+  </IdolCareer>
+
+  <!-- 3. Weekly Tabloid Ambush (Levels 4-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_TabloidPaparazzi</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_TabloidPaparazzi_Desc</Description>
+    <YesText>IdolEvent_TabloidPaparazzi_Yes</YesText>
+    <NoText>IdolEvent_TabloidPaparazzi_No</NoText>
+    <YesResultText>IdolEvent_TabloidPaparazzi_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_TabloidPaparazzi_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_TabloidPaparazzi_NoResult</NoResultText>
+    <ChanceToWin>50</ChanceToWin>
+    <ChanceModifier1>Skill,Charisma,30</ChanceModifier1>
+    <ChanceModifier2>Mood,20</ChanceModifier2>
+    <Likelihood>0.07</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>4:10</AvailableLevels>
+    <RewardYes1>Money,850</RewardYes1>
+    <RewardYes2>CareerPerformance,20</RewardYes2>
+    <RewardYes3>RelationshipWithBoss,20</RewardYes3>
+    <RewardYesLose1>CareerPerformance,-15</RewardYesLose1>
+    <RewardYesLose2>Buff,Stressed</RewardYesLose2>
+    <RewardNo1>RelationshipWithBoss,5</RewardNo1>
+  </IdolCareer>
+
+  <!-- 4. Formation Blocking Showdown (IdolGroup Levels 6-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_CenterDispute</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_CenterDispute_Desc</Description>
+    <YesText>IdolEvent_CenterDispute_Yes</YesText>
+    <NoText>IdolEvent_CenterDispute_No</NoText>
+    <YesResultText>IdolEvent_CenterDispute_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_CenterDispute_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_CenterDispute_NoResult</NoResultText>
+    <ChanceToWin>55</ChanceToWin>
+    <ChanceModifier1>Skill,Charisma,25</ChanceModifier1>
+    <ChanceModifier2>Skill,Athletic,20</ChanceModifier2>
+    <Likelihood>0.09</Likelihood>
+    <BranchName>IdolGroup</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+    <RewardYes1>RelationshipWithCoworkers,25</RewardYes1>
+    <RewardYes2>CareerPerformance,22</RewardYes2>
+    <RewardYes3>RelationshipWithBoss,15</RewardYes3>
+    <RewardYesLose1>RelationshipWithCoworkers,-10</RewardYesLose1>
+    <RewardNo1>CareerPerformance,8</RewardNo1>
+    <RewardNo2>RelationshipWithCoworkers,-8</RewardNo2>
+  </IdolCareer>
+
+  <!-- 5. Blackout at the Arena: A Cappella Encore (SoloIdol Levels 6-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_AcousticEncore</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_AcousticEncore_Desc</Description>
+    <YesText>IdolEvent_AcousticEncore_Yes</YesText>
+    <NoText>IdolEvent_AcousticEncore_No</NoText>
+    <YesResultText>IdolEvent_AcousticEncore_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_AcousticEncore_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_AcousticEncore_NoResult</NoResultText>
+    <ChanceToWin>55</ChanceToWin>
+    <ChanceModifier1>Skill,Charisma,30</ChanceModifier1>
+    <ChanceModifier2>Mood,20</ChanceModifier2>
+    <Likelihood>0.09</Likelihood>
+    <BranchName>SoloIdol</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+    <RewardYes1>Money,1500</RewardYes1>
+    <RewardYes2>CareerPerformance,25</RewardYes2>
+    <RewardYes3>Buff,Pumped</RewardYes3>
+    <RewardYesLose1>CareerPerformance,-10</RewardYesLose1>
+    <RewardNo1>CareerPerformance,5</RewardNo1>
+  </IdolCareer>
+
+  <!-- 6. The 1,000-Ticket Superfan Queue (All Branches Levels 5-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_HandshakeMarathon</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolChoice, IdolCareerMod</EventName>
+    <Description>IdolEvent_HandshakeMarathon_Desc</Description>
+    <YesText>IdolEvent_HandshakeMarathon_Yes</YesText>
+    <NoText>IdolEvent_HandshakeMarathon_No</NoText>
+    <YesResultText>IdolEvent_HandshakeMarathon_YesWin</YesResultText>
+    <YesLoseResultText>IdolEvent_HandshakeMarathon_YesLose</YesLoseResultText>
+    <NoResultText>IdolEvent_HandshakeMarathon_NoResult</NoResultText>
+    <ChanceToWin>55</ChanceToWin>
+    <ChanceModifier1>Skill,Athletic,25</ChanceModifier1>
+    <ChanceModifier2>Skill,Charisma,25</ChanceModifier2>
+    <Likelihood>0.08</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>5:10</AvailableLevels>
+    <RewardYes1>Money,1100</RewardYes1>
+    <RewardYes2>CareerPerformance,20</RewardYes2>
+    <RewardYes3>RelationshipWithBoss,15</RewardYes3>
+    <RewardYesLose1>Buff,Exhausted</RewardYesLose1>
+    <RewardYesLose2>CareerPerformance,8</RewardYesLose2>
+    <RewardNo1>CareerPerformance,-5</RewardNo1>
+  </IdolCareer>
+
+  <!-- =================================================================== -->
+  <!-- REWARD EVENTS (4 FLAVOR & BONUS EVENTS)                             -->
+  <!-- =================================================================== -->
+
+  <!-- 7. Sleeper B-Side Goes Viral (Levels 3-6) -->
+  <IdolCareer>
+    <EventType>IdolEvent_BSideChartTopper</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolReward, IdolCareerMod</EventName>
+    <Description>IdolEvent_BSideChartTopper_Desc</Description>
+    <Likelihood>0.06</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>3:6</AvailableLevels>
+    <RewardYes1>Money,600</RewardYes1>
+    <RewardYes2>CareerPerformance,18</RewardYes2>
+  </IdolCareer>
+
+  <!-- 8. Luxury Cosmetics Endorsement Royalties (SoloIdol Levels 6-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_LuxurySponsorGift</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolReward, IdolCareerMod</EventName>
+    <Description>IdolEvent_LuxurySponsorGift_Desc</Description>
+    <Likelihood>0.07</Likelihood>
+    <BranchName>SoloIdol</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+    <RewardYes1>Money,1800</RewardYes1>
+    <RewardYes2>CareerPerformance,15</RewardYes2>
+  </IdolCareer>
+
+  <!-- 9. Seasonal Anime Opening Goes Platinum (All Branches Levels 6-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_AnimeThemeTieIn</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolReward, IdolCareerMod</EventName>
+    <Description>IdolEvent_AnimeThemeTieIn_Desc</Description>
+    <Likelihood>0.07</Likelihood>
+    <BranchName>All</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+    <RewardYes1>Money,1400</RewardYes1>
+    <RewardYes2>CareerPerformance,20</RewardYes2>
+    <RewardYes3>Buff,Pumped</RewardYes3>
+  </IdolCareer>
+
+  <!-- 10. Miracle 99.8% Unit Synchronicity (IdolGroup Levels 6-10) -->
+  <IdolCareer>
+    <EventType>IdolEvent_SynchronizedFormation</EventType>
+    <EventName>Sims3.Gameplay.Careers.IdolCareer+EventIdolReward, IdolCareerMod</EventName>
+    <Description>IdolEvent_SynchronizedFormation_Desc</Description>
+    <Likelihood>0.07</Likelihood>
+    <BranchName>IdolGroup</BranchName>
+    <AvailableLevels>6:10</AvailableLevels>
+    <RewardYes1>RelationshipWithCoworkers,20</RewardYes1>
+    <RewardYes2>CareerPerformance,20</RewardYes2>
+    <RewardYes3>Buff,Pumped</RewardYes3>
+  </IdolCareer>
+</CareerEvents>

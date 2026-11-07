@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+    <kInstantiator value="True">
+      <!--Triggers static constructor of IdolCareerMod on game startup.-->
+    </kInstantiator>
+  </Current_Tuning>
+</base>

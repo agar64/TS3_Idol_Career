@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Opportunities_Idol>
+  <!-- =================================================================== -->
+  <!-- 1. OPPORTUNITIES SETUP                                              -->
+  <!-- =================================================================== -->
+  <OpportunitiesSetup>
+    <ProductVersion>BaseGame</ProductVersion>
+    <ProductRegistrationRequired>Undefined</ProductRegistrationRequired>
+    <GUID></GUID>
+    <CustomOpportunityClass></CustomOpportunityClass>
+    <Icon></Icon>
+    <AcceptDialogDescriptionBackground>NotSet</AcceptDialogDescriptionBackground>
+    <RepeatLevel>Always</RepeatLevel>
+    <IsOrdered>True</IsOrdered>
+    <IsCounted>False</IsCounted>
+    <IsTotaled>False</IsTotaled>
+    <Timeout></Timeout>
+    <TimeoutData>0</TimeoutData>
+    <TimeoutEnd>11:59PM</TimeoutEnd>
+    <Loss></Loss>
+    <LossData>0</LossData>
+    <AdventureMapTagTarget></AdventureMapTagTarget>
+    <OppMapDagDisplayType>Normal</OppMapDagDisplayType>
+    <CountOrTotal></CountOrTotal>
+    <EventListenerInfo1></EventListenerInfo1>
+    <EventListenerInfo2></EventListenerInfo2>
+    <EventListenerInfo3></EventListenerInfo3>
+    <CompletionEvent></CompletionEvent>
+    <AllowPhoneCompletion>False</AllowPhoneCompletion>
+    <CompletionProceduralTestFunction></CompletionProceduralTestFunction>
+    <ChanceToGetOnPhone>20</ChanceToGetOnPhone>
+    <Availability>JobBoardAndPhone</Availability>
+    <OpportunityType>Career</OpportunityType>
+    <Source></Source>
+    <SourceData></SourceData>
+    <Target></Target>
+    <TargetData></TargetData>
+    <TargetRoleRequired>None</TargetRoleRequired>
+    <TargetInteractionName></TargetInteractionName>
+    <TargetSocialTextKeys></TargetSocialTextKeys>
+    <TargetInteractionLikingToAccept>-100</TargetInteractionLikingToAccept>
+    <TargetInteractionIgnoreTarget>False</TargetInteractionIgnoreTarget>
+    <TargetWorldRequired>Undefined</TargetWorldRequired>
+    <TargetInteractionCommodity></TargetInteractionCommodity>
+    <TargetInteractionLength>120</TargetInteractionLength>
+    <TargetInteractionDays>All</TargetInteractionDays>
+    <TargetInteractionStartTime>9:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>10:00PM</TargetInteractionEndTime>
+    <TargetInteractionItemRequired></TargetInteractionItemRequired>
+    <TargetInteractionNumberItemsRequired></TargetInteractionNumberItemsRequired>
+    <TargetInteractionItemsDeleted></TargetInteractionItemsDeleted>
+    <TargetUseCollectibleProgressText>True</TargetUseCollectibleProgressText>
+    <TargetDeletionSortingFunction></TargetDeletionSortingFunction>
+    <TargetProceduralDeletionFunction></TargetProceduralDeletionFunction>
+    <Object></Object>
+    <ObjectData></ObjectData>
+    <ObjectTreasureSpawner></ObjectTreasureSpawner>
+    <ObjectStateForCompletion></ObjectStateForCompletion>
+    <DestinationInventory>SimInventory</DestinationInventory>
+    <RequiredOnCompletion>False</RequiredOnCompletion>
+    <DeleteOnCompletion>False</DeleteOnCompletion>
+    <DeleteOnFailure></DeleteOnFailure>
+    <CompletionTNSType>Info</CompletionTNSType>
+    <EventDay></EventDay>
+    <EventStartTime></EventStartTime>
+    <EventEndTime></EventEndTime>
+    <EventSetup></EventSetup>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_LateNightFlyerBlitz</GUID>
+    <Icon>w_idol_career</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Bookstore</TargetData>
+    <TargetInteractionName>IdolOpp_LateNightFlyerBlitz_Interaction</TargetInteractionName>
+    <TargetInteractionLength>90</TargetInteractionLength>
+    <TargetInteractionStartTime>10:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>10:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_ConvenienceStoreCampaign</GUID>
+    <Icon>w_idol_career</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Grocery</TargetData>
+    <TargetInteractionName>IdolOpp_ConvenienceStoreCampaign_Interaction</TargetInteractionName>
+    <TargetInteractionLength>90</TargetInteractionLength>
+    <TargetInteractionStartTime>9:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>9:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_StaminaBootcamp</GUID>
+    <Icon>w_athletic_skill</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Stadium</TargetData>
+    <TargetInteractionName>IdolOpp_StaminaBootcamp_Interaction</TargetInteractionName>
+    <TargetInteractionLength>120</TargetInteractionLength>
+    <TargetInteractionStartTime>8:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>8:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_AnisongThemeTieIn</GUID>
+    <Icon>w_idol_career</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Theatre</TargetData>
+    <TargetInteractionName>IdolOpp_AnisongThemeTieIn_Interaction</TargetInteractionName>
+    <TargetInteractionLength>120</TargetInteractionLength>
+    <TargetInteractionStartTime>10:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>10:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_VarietyReactionQueen</GUID>
+    <Icon>w_charisma_skill</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>BusinessAndJournalism</TargetData>
+    <TargetInteractionName>IdolOpp_VarietyReactionQueen_Interaction</TargetInteractionName>
+    <TargetInteractionLength>120</TargetInteractionLength>
+    <TargetInteractionStartTime>9:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>8:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_CenterPositionAudition</GUID>
+    <Icon>w_idol_career</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Theatre</TargetData>
+    <TargetInteractionName>IdolOpp_CenterPositionAudition_Interaction</TargetInteractionName>
+    <TargetInteractionLength>120</TargetInteractionLength>
+    <TargetInteractionStartTime>10:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>9:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_GoldenWeekHandshake</GUID>
+    <Icon>w_charisma_skill</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>CityHall</TargetData>
+    <TargetInteractionName>IdolOpp_GoldenWeekHandshake_Interaction</TargetInteractionName>
+    <TargetInteractionLength>150</TargetInteractionLength>
+    <TargetInteractionStartTime>10:00AM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>8:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <OpportunitiesSetup>
+    <GUID>IdolOpp_CountdownDomeFestival</GUID>
+    <Icon>w_idol_career</Icon>
+    <RepeatLevel>Always</RepeatLevel>
+    <CompletionEvent>kVisitedRabbitHole</CompletionEvent>
+    <OpportunityType>Career</OpportunityType>
+    <Target>RabbitHole</Target>
+    <TargetData>Stadium</TargetData>
+    <TargetInteractionName>IdolOpp_CountdownDomeFestival_Interaction</TargetInteractionName>
+    <TargetInteractionLength>180</TargetInteractionLength>
+    <TargetInteractionStartTime>12:00PM</TargetInteractionStartTime>
+    <TargetInteractionEndTime>11:00PM</TargetInteractionEndTime>
+  </OpportunitiesSetup>
+
+  <!-- =================================================================== -->
+  <!-- 2. OPPORTUNITY NAMES & LOCALIZATION KEYS                            -->
+  <!-- =================================================================== -->
+  <Names>
+    <GUID></GUID>
+    <OpportunityName></OpportunityName>
+    <OpportunityDescription></OpportunityDescription>
+    <OpportunityHint></OpportunityHint>
+    <CompletionText></CompletionText>
+    <SecondaryCompletionText></SecondaryCompletionText>
+    <FailureText></FailureText>
+    <ProgressText></ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_LateNightFlyerBlitz</GUID>
+    <OpportunityName>IdolOpp_LateNightFlyerBlitz_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_LateNightFlyerBlitz_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_LateNightFlyerBlitz_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_LateNightFlyerBlitz_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_LateNightFlyerBlitz_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_ConvenienceStoreCampaign</GUID>
+    <OpportunityName>IdolOpp_ConvenienceStoreCampaign_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_ConvenienceStoreCampaign_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_ConvenienceStoreCampaign_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_ConvenienceStoreCampaign_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_ConvenienceStoreCampaign_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_StaminaBootcamp</GUID>
+    <OpportunityName>IdolOpp_StaminaBootcamp_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_StaminaBootcamp_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_StaminaBootcamp_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_StaminaBootcamp_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_StaminaBootcamp_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_AnisongThemeTieIn</GUID>
+    <OpportunityName>IdolOpp_AnisongThemeTieIn_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_AnisongThemeTieIn_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_AnisongThemeTieIn_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_AnisongThemeTieIn_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_AnisongThemeTieIn_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_VarietyReactionQueen</GUID>
+    <OpportunityName>IdolOpp_VarietyReactionQueen_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_VarietyReactionQueen_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_VarietyReactionQueen_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_VarietyReactionQueen_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_VarietyReactionQueen_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_CenterPositionAudition</GUID>
+    <OpportunityName>IdolOpp_CenterPositionAudition_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_CenterPositionAudition_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_CenterPositionAudition_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_CenterPositionAudition_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_CenterPositionAudition_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_GoldenWeekHandshake</GUID>
+    <OpportunityName>IdolOpp_GoldenWeekHandshake_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_GoldenWeekHandshake_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_GoldenWeekHandshake_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_GoldenWeekHandshake_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_GoldenWeekHandshake_Progress</ProgressText>
+  </Names>
+
+  <Names>
+    <GUID>IdolOpp_CountdownDomeFestival</GUID>
+    <OpportunityName>IdolOpp_CountdownDomeFestival_Name</OpportunityName>
+    <OpportunityDescription>IdolOpp_CountdownDomeFestival_Description</OpportunityDescription>
+    <OpportunityHint>IdolOpp_CountdownDomeFestival_Hint</OpportunityHint>
+    <CompletionText>IdolOpp_CountdownDomeFestival_Completion</CompletionText>
+    <FailureText>IdolOpp_Generic_Failure</FailureText>
+    <ProgressText>IdolOpp_CountdownDomeFestival_Progress</ProgressText>
+  </Names>
+
+  <!-- =================================================================== -->
+  <!-- 3. OPPORTUNITY REQUIREMENTS                                         -->
+  <!-- =================================================================== -->
+  <OpportunitiesRequirements>
+    <GUID></GUID>
+    <Requirement1></Requirement1>
+    <Requirement2></Requirement2>
+    <Requirement3></Requirement3>
+    <Requirement4></Requirement4>
+    <CustomRequirementFunction></CustomRequirementFunction>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_LateNightFlyerBlitz</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Bookstore</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_ConvenienceStoreCampaign</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Grocery</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_StaminaBootcamp</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Stadium</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_AnisongThemeTieIn</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Theatre</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_VarietyReactionQueen</GUID>
+    <Requirement1>WorldHasRabbitHoleType,BusinessAndJournalism</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_CenterPositionAudition</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Theatre</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_GoldenWeekHandshake</GUID>
+    <Requirement1>WorldHasRabbitHoleType,CityHall</Requirement1>
+  </OpportunitiesRequirements>
+
+  <OpportunitiesRequirements>
+    <GUID>IdolOpp_CountdownDomeFestival</GUID>
+    <Requirement1>WorldHasRabbitHoleType,Stadium</Requirement1>
+  </OpportunitiesRequirements>
+
+  <!-- =================================================================== -->
+  <!-- 4. OPPORTUNITY COMPLETION REWARDS                                   -->
+  <!-- =================================================================== -->
+  <OpportunitiesCompletion>
+    <GUID></GUID>
+    <TriggerOpportunityOnCompletion></TriggerOpportunityOnCompletion>
+    <TriggerQuietly>False</TriggerQuietly>
+    <ShowRewardText>True</ShowRewardText>
+    <ShowRewardForOpp>Undefined</ShowRewardForOpp>
+    <CompletionWinChance>100</CompletionWinChance>
+    <CompletionWinReward1></CompletionWinReward1>
+    <CompletionWinReward2></CompletionWinReward2>
+    <CompletionWinReward3></CompletionWinReward3>
+    <CompletionWinReward4></CompletionWinReward4>
+    <CustomOnWinCompletionFunction></CustomOnWinCompletionFunction>
+    <CompletionModifier1></CompletionModifier1>
+    <CompletionModifier2></CompletionModifier2>
+    <CompletionModifier3></CompletionModifier3>
+    <CompletionModifier4></CompletionModifier4>
+    <CompletionLossReward1></CompletionLossReward1>
+    <CompletionLossReward2></CompletionLossReward2>
+    <CompletionLossReward3></CompletionLossReward3>
+    <CompletionLossReward4></CompletionLossReward4>
+    <CustomOnLossCompletionFunction></CustomOnLossCompletionFunction>
+    <FailureReward1></FailureReward1>
+    <FailureReward2></FailureReward2>
+    <FailureReward3></FailureReward3>
+    <FailureReward4></FailureReward4>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_LateNightFlyerBlitz</GUID>
+    <CompletionWinReward1>CareerPerformance,22</CompletionWinReward1>
+    <CompletionWinReward2>Money,350</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,40</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_ConvenienceStoreCampaign</GUID>
+    <CompletionWinReward1>CareerPerformance,25</CompletionWinReward1>
+    <CompletionWinReward2>Money,550</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,75</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_StaminaBootcamp</GUID>
+    <CompletionWinReward1>CareerPerformance,25</CompletionWinReward1>
+    <CompletionWinReward2>SkillPercentage,Athletic,25</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,50</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_AnisongThemeTieIn</GUID>
+    <CompletionWinReward1>CareerPerformance,28</CompletionWinReward1>
+    <CompletionWinReward2>Money,1600</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,125</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_VarietyReactionQueen</GUID>
+    <CompletionWinReward1>CareerPerformance,25</CompletionWinReward1>
+    <CompletionWinReward2>Money,1200</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,100</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_CenterPositionAudition</GUID>
+    <CompletionWinReward1>CareerPerformance,30</CompletionWinReward1>
+    <CompletionWinReward2>RelationshipWithBoss,25</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,125</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_GoldenWeekHandshake</GUID>
+    <CompletionWinReward1>CareerPerformance,28</CompletionWinReward1>
+    <CompletionWinReward2>Money,2200</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,175</CompletionWinReward3>
+  </OpportunitiesCompletion>
+
+  <OpportunitiesCompletion>
+    <GUID>IdolOpp_CountdownDomeFestival</GUID>
+    <CompletionWinReward1>CareerPerformance,35</CompletionWinReward1>
+    <CompletionWinReward2>Money,4500</CompletionWinReward2>
+    <CompletionWinReward3>CelebrityPoints,300</CompletionWinReward3>
+  </OpportunitiesCompletion>
+</Opportunities_Idol>
